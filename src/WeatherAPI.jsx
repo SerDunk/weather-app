@@ -8,8 +8,6 @@ const searchWeather = async (lat, long) => {
       current_weather: true,
     },
   });
-
-  console.log(result.data.current_weather);
   return result.data.current_weather;
 };
 
